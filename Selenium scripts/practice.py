@@ -26,3 +26,8 @@ driver.find_element(By.CLASS_NAME,'react-autosuggest__input react-autosuggest__i
 
 driver.find_element((By.CLASS_NAME,'react-autosuggest__input react-autosuggest__input--open').send_keys('banglore')) # enter source of journey
 driver.find_element(By.CLASS_NAME,'primaryBtn font24 latoBold widgetSearchBtn').click() #click on search
+
+
+
+import array
+array.array
