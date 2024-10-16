@@ -28,6 +28,4 @@ driver.find_element((By.CLASS_NAME,'react-autosuggest__input react-autosuggest__
 driver.find_element(By.CLASS_NAME,'primaryBtn font24 latoBold widgetSearchBtn').click() #click on search
 
 
-
-import array
-array.array
+driver.quit()

@@ -8,10 +8,8 @@ from selenium.webdriver.common.alert import Alert
 from user_generator import generate_password, generate_username
 
 username=generate_username()
-Current_username=username
 password=generate_password()
-Current_password=password
-print(Current_username,"=====", Current_password)
+print(username,"=====", password)
 service=Service(ChromeDriverManager().install())
 driver=webdriver.Chrome(service=service)
 driver.maximize_window()
@@ -63,10 +61,10 @@ def login():
         time.sleep(3)
         driver.find_element(By.XPATH, "//input[@id='loginusername']").click()
         driver.find_element(By.ID, 'loginusername').clear()
-        driver.find_element(By.ID, 'loginusername').send_keys(Current_username)
+        driver.find_element(By.ID, 'loginusername').send_keys(username)
         # type password
         driver.find_element(By.ID, 'loginpassword').clear()
-        driver.find_element(By.ID, 'loginpassword').send_keys(Current_password)
+        driver.find_element(By.ID, 'loginpassword').send_keys(password)
         # click signup
         driver.find_element(By.XPATH, "//button[@class='btn btn-primary' and text()='Log in']").click()
         time.sleep(2)
