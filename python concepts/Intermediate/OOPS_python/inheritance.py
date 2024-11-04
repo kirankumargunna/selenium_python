@@ -96,3 +96,5 @@ print(editor2.login())
 print(editor2.display_info())
 print(editor2.edit_content())
 print(editor2.logout()) 
+
+
