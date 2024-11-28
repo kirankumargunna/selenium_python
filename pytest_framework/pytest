@@ -1,0 +1,10 @@
+# any pytest file should start with "test_" or ends with "_test"
+# pytest method name should start with "test_"
+# any code for test using pytest should be wraped in methods only
+# method name should be created as some meaning ful sence so that we can run specific test cases
+# to run all the test under the dir use : "py.test"
+# 'pytest -v' Increases the verbosity: prints each test's name and the result (PASSED, FAILED, etc.).
+# 'pytest -s' Disables output capturing so that print() statements and logs are shown in real-time
+# 'pytest -v -s' Combines both: shows detailed output (with function names) and allows real-time print() output to be visible.
+# now we can run specific test cases  using 'pytest -k <regular exp or pattern > -v -s'
+# 'pytest -m smoke -v -s' to run the file names marked as smoke
