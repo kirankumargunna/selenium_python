@@ -1,0 +1,11 @@
+ID,Name,Age,Gender,Join Date,Salary,Department,Address,Skills,Performance,Details
+1,John Doe,29,Male,2021-06-15,55000,Engineering,"123 Elm St, Springfield","['Python', 'C++']",Excellent,"{""Projects"": 5, ""Awards"": 2}"
+2,Jane Smith,34,Female,2020-03-10,60000,Marketing,"456 Oak St, Riverside","['SEO', 'Content Writing']",Good,"{""Projects"": 3, ""Awards"": 1}"
+3,Mary Johnson,25,Female,2023-11-02,45000,Engineering,"789 Pine St, Lakeside","['Java', 'SQL']",Average,"{""Projects"": 2, ""Awards"": 0}"
+4,James Brown,45,Male,2018-08-25,75000,Finance,"321 Maple St, Greenfield","['Excel', 'Accounting']",Excellent,"{""Projects"": 8, ""Awards"": 5}"
+5,Patricia Williams,38,Female,2017-01-18,67000,HR,"654 Cedar St, Hillside","['Communication', 'Negotiation']",Good,"{""Projects"": 4, ""Awards"": 3}"
+6,Michael Davis,50,Male,2015-09-05,80000,Engineering,"987 Birch St, Oakwood","['Python', 'Data Analysis']",Outstanding,"{""Projects"": 10, ""Awards"": 7}"
+7,Emily Moore,28,Female,2022-07-11,52000,Marketing,"159 Walnut St, Brooktown","['Graphic Design', 'Social Media']",Excellent,"{""Projects"": 6, ""Awards"": 3}"
+8,Daniel Wilson,31,Male,2019-11-20,67000,Sales,"753 Redwood St, Fairview","['Sales', 'Negotiation']",Good,"{""Projects"": 4, ""Awards"": 2}"
+9,Olivia Martinez,27,Female,2021-03-25,48000,Engineering,"852 Cedar St, Waterford","['C++', 'JavaScript']",Average,"{""Projects"": 3, ""Awards"": 1}"
+10,David Anderson,40,Male,2014-12-15,95000,Finance,"258 Pine St, Lakeside","['Financial Modeling', 'Forecasting']",Outstanding,"{""Projects"": 15, ""Awards"": 10}"
