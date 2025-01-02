@@ -1,0 +1,21 @@
+2024-12-30 12:34:55,541 - OrderProcessor - DEBUG - Validating order: {'id': 1, 'items': [{'name': 'Laptop', 'price': 1200, 'quantity': 1}, {'name': 'Mouse', 'price': 25, 'quantity': 2}]}
+2024-12-30 12:34:55,543 - OrderProcessor - INFO - Order 1 validated successfully
+2024-12-30 12:34:55,545 - OrderProcessor - DEBUG - Calculated total for order 1: 1250
+2024-12-30 12:34:55,547 - PaymentProcessor - DEBUG - Processing payment for order 1, amount: 1250
+2024-12-30 12:34:55,548 - PaymentProcessor - INFO - Payment successful for order 1
+2024-12-30 12:34:55,549 - AuditLogger - INFO - Order 1 processed successfully. Total: 1250
+2024-12-30 12:34:56,551 - OrderProcessor - DEBUG - Validating order: {'id': 2, 'items': [{'name': 'Headphones', 'price': 100, 'quantity': 3}]}
+2024-12-30 12:34:56,902 - OrderProcessor - INFO - Order 2 validated successfully
+2024-12-30 12:34:56,905 - OrderProcessor - DEBUG - Calculated total for order 2: 300
+2024-12-30 12:34:56,910 - PaymentProcessor - DEBUG - Processing payment for order 2, amount: 300
+2024-12-30 12:34:56,915 - PaymentProcessor - ERROR - Payment failed for order 2
+2024-12-30 12:34:56,919 - PaymentProcessor - CRITICAL - Critical failure for order 2: Payment processing failed
+2024-12-30 12:34:57,929 - OrderProcessor - DEBUG - Validating order: {'id': None, 'items': [{'name': 'Keyboard', 'price': 50, 'quantity': 1}]}
+2024-12-30 12:34:57,931 - OrderProcessor - ERROR - Invalid order: Missing ID or items
+2024-12-30 12:34:57,935 - OrderProcessor - WARNING - Order None validation failed: Order is missing required fields
+2024-12-30 12:34:58,939 - OrderProcessor - DEBUG - Validating order: {'id': 3, 'items': [{'name': 'Monitor', 'price': -200, 'quantity': 1}]}
+2024-12-30 12:34:58,939 - OrderProcessor - ERROR - Invalid item in order: {'name': 'Monitor', 'price': -200, 'quantity': 1}
+2024-12-30 12:34:58,939 - OrderProcessor - WARNING - Order 3 validation failed: Item {'name': 'Monitor', 'price': -200, 'quantity': 1} is invalid
+2024-12-30 13:46:39,119 - ipykernel.comm - ERROR - No such comm target registered: jupyter.widget.control
+2024-12-30 13:46:39,119 - Comm - WARNING - No such comm: 90904b79-25bb-4e50-aa12-5e06b8f86885
+2024-12-30 13:46:39,127 - Comm - DEBUG - Current comms: []
