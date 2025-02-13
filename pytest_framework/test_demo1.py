@@ -1,4 +1,5 @@
 from selenium import webdriver
+import pytest
 
 def test_lambdatest_playground():
   driver = webdriver.Chrome()

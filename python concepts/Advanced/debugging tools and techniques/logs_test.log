@@ -1,0 +1,15 @@
+2025-02-13 12:05:26,710 - demolog - INFO - This is an INFO statement
+2025-02-13 12:05:26,712 - demolog - DEBUG - This is a DEBUG statement
+2025-02-13 12:05:26,715 - demolog - WARNING - This is a WARNING statement
+2025-02-13 12:05:26,717 - demolog - ERROR - This is an ERROR statement
+2025-02-13 12:05:26,720 - demolog - CRITICAL - This is a CRITICAL statement
+2025-02-13 12:07:02,598 - demolog - INFO - This is an INFO statement
+2025-02-13 12:07:02,598 - demolog - DEBUG - This is a DEBUG statement
+2025-02-13 12:07:02,598 - demolog - WARNING - This is a WARNING statement
+2025-02-13 12:07:02,598 - demolog - ERROR - This is an ERROR statement
+2025-02-13 12:07:02,599 - demolog - CRITICAL - This is a CRITICAL statement
+2025-02-13 12:07:10,581 - demolog - INFO - This is an INFO statement
+2025-02-13 12:07:10,582 - demolog - DEBUG - This is a DEBUG statement
+2025-02-13 12:07:10,582 - demolog - WARNING - This is a WARNING statement
+2025-02-13 12:07:10,582 - demolog - ERROR - This is an ERROR statement
+2025-02-13 12:07:10,582 - demolog - CRITICAL - This is a CRITICAL statement

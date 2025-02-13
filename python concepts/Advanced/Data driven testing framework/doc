@@ -1,0 +1,11 @@
+Data Driven Testing is a strategic approach that involves executing a set of test script actions in a repetitive manner, each time utilizing distinct input values sourced from an associated data repository. This technique enhances efficiency by decoupling the 'test_case' code from the underlying 'data_set' streamlining testing processes.
+
+
+It is one of the widely-used automation testing best practices for verifying the behavior and efficiency of tests when handling various types of input values.
+
+Here are the popular external data feed or data sources in data driven testing:
+
+MS Excel Sheets (.xls, .xlsx)
+CSV Files (.csv)
+XML Files (.xml)
+MS Access Tables (.mdb)

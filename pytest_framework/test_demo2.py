@@ -6,5 +6,3 @@ def test_login():
     driver=driver.get("https://ecommerce-playground.lambdatest.io/")
     return driver
 
-def test_continoue():
-    driver=
